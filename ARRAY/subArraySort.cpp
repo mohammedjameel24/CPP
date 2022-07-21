@@ -22,6 +22,10 @@ pair<int,int> findUnsortedSubarray(vector<int> nums) {
             right = i;
             break;
         }
+    if(left==a.size())
+    {
+        return {-1,-1};
+    }
     return {left,right};
 }
 
