@@ -1,6 +1,5 @@
 /*
-Given an array of size n , find the minimum number of swaps needed to make it sorted
-
+Given an array of size n , find the minimum number of swaps needed to make it sort
 Input
 arr [5,4,3,2,1]
 Output
