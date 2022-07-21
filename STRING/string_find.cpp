@@ -14,13 +14,13 @@ int main(){
 	int index =  paragraph.find(word);
 
 	if(index!=-1){
-		cout <<"first occ" <<index;
+		cout <<"first occ " << index << endl;
 	}
 
 	index = paragraph.find(word,index+1);
 
 	if(index!=-1){
-		cout<<"second occ "<<index <<endl;
+		cout<<"second occ "<< index <<endl;
 	}
 
 
