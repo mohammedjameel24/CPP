@@ -23,7 +23,7 @@ int longest_band_sort(vector<int> arr)
     // sorted arr{0,1,2,3,5,6,7,9,10,12,18}
 
     int count = 0;
-    for(int i = 0 ; i <=n; i++)
+    for(int i = 0 ; i <= n; i++)
     {
         if(arr[i+1] - arr[i] == 1)
         {

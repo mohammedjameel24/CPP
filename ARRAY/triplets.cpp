@@ -4,13 +4,13 @@ Find all distinct pairs that can add up to form target sum if no pairs are possi
 the output should be sorted 
 */
 
-// Brute force Approach 
 
 #include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
 
+// Brute force Approach 
 vector<vector<int>> tripletsBrute(vector<int> arr, int Sum )
 {
     vector<vector<int>> result;
